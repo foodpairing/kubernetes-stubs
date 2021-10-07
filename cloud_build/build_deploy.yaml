@@ -26,7 +26,7 @@ steps:
     poetry build -f sdist
     cd dist
     package=$(ls -c *.tar.gz | head -n 1)
-    curl -F package=@$package $gemfury_url
+    curl -F package="@$package" "$gemfury_url"
 availableSecrets:
   secretManager:
   - versionName: projects/fp-cloud-build/secrets/gemfury-push-token/versions/latest
