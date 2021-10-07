@@ -1,5 +1,5 @@
 [tool.poetry]
-version = "18.20.0post2+0"
+version = "18.20.0post2+fp1"
 name = "kubernetes-stubs"
 description = "Type stubs for the Kubernetes Python API client"
 authors = ["Nikhil Benesch <nikhil.benesch@gmail.com>"]
